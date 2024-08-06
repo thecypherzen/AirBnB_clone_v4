@@ -67,6 +67,7 @@ test_db_storage.py'])
             self.assertTrue(len(func[1].__doc__) >= 1,
                             "{:s} method needs a docstring".format(func[0]))
 
+
 if models.storage_t == 'db':
     class TestFileStorage(unittest.TestCase):
         """Test the FileStorage class"""
