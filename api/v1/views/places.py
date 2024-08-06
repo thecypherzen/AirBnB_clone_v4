@@ -245,6 +245,7 @@ def search_places():
                 if amenity.id not in [am.id for am in place.amenities] or \
                    not place.amenities:
                     results.discard(place)
+                    retults = results_copy
 
     results = [place.to_dict() for place in results]
     for place in results:
