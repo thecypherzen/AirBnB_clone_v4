@@ -98,7 +98,7 @@ def create_review(place_id):
     user = storage.get(User, data.get('user_id'))
     place = storage.get(Place, place_id)
     if not all([user, place]):
-        abort(404)
+        abort(400)
 
     # check if user_id and place_id of place match
     if not all([place.user_id == data.get('user_id'),
