@@ -69,21 +69,46 @@ test_db_storage.py'])
 
 
 if models.storage_t == 'db':
-    class TestFileStorage(unittest.TestCase):
-        """Test the FileStorage class"""
-        @unittest.skipIf(models.storage_t != 'db', "not testing db storage")
+    class TestDBStorage(unittest.TestCase):
+        """Test the  class"""
+        @classmethod
+        def setUpClass(cls):
+            """sets up test class"""
+            cls.storage = models.storage
+
+        def test_all_no_class(self):
+            """Test that all returns all rows when no class is passed"""
+
         def test_all_returns_dict(self):
             """Test that all returns a dictionaty"""
             self.assertIs(type(models.storage.all()), dict)
 
-        @unittest.skipIf(models.storage_t != 'db', "not testing db storage")
-        def test_all_no_class(self):
-            """Test that all returns all rows when no class is passed"""
+        def test_count(self):
+            """ Test that count method works well """
+            Obj = classes["Amenity"]
+            obj_count = self.storage.count(Obj)
+            all_count = self.storage.count()
+            new_obj = Obj(name="New Amenity")
+            new_obj.save()
+            new_obj_count = self.storage.count(Obj)
+            new_all_count = self.storage.count()
+            with self.subTest():
+                self.assertTrue(obj_count == new_obj_count - 1,
+                                msg="object count change failed")
+                self.assertTrue(all_count == new_all_count - 1,
+                                msg="all objects count change failed")
 
-        @unittest.skipIf(models.storage_t != 'db', "not testing db storage")
+        def test_get(self):
+            """Test that get method works well"""
+            Class = classes["Amenity"]
+            new_obj = Class(name="Test Amenity 1")
+            new_obj.save()
+            fetched_obj = self.storage.get(Class, new_obj.id)
+            self.assertTrue(new_obj.id == fetched_obj.id,
+                            msg="storage.get method check failed")
+
         def test_new(self):
             """test that new adds an object to the database"""
 
-        @unittest.skipIf(models.storage_t != 'db', "not testing db storage")
         def test_save(self):
             """Test that save properly saves objects to file.json"""
