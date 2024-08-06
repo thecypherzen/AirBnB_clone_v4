@@ -210,55 +210,42 @@ def search_places():
     except Exception:
         abort(400, description="Not a JSON")
 
-    states = data.get("states")
-    cities = data.get("cities")
-    amenities = data.get("amenities")
+    states_keys = data.get("states")
+    cities_keys = data.get("cities")
+    amenities_keys = data.get("amenities")
 
-    # print("about to enter")
-    if not all([data, states, cities, amenities]):
-        results = set(storage.all(Place).values())
+    if not all([data, states_keys, cities_keys, amenities_keys]):
+        # get all places if all keys and request data are empty
+        results = storage.all(Place).values()
     else:
+        # get objects for each keys in request data
         results = set()
-        if states:
-            for state_id in states:
+        if states_keys:
+            for state_id in states_keys:
                 state = storage.get(State, state_id)
                 if state:
                     for city in state.cities:
                         results.update({place for place in city.places})
-        # for i in results:
-            # print("\n",i.to_dict())
-        if cities:
-            for city_id in cities:
+
+        if cities_keys:
+            for city_id in cities_keys:
                 city = storage.get(City, city_id)
                 if city:
                     results.update({place for place in city.places})
-        # for i in results:
-        #    print("\n",i.to_dict())
 
-    # filter results based on amenities
-    # print([place.to_dict() for place in results])
-    if amenities:
-        # print("checking Amenities")
-        amenities = [storage.get(Amenity, a_id) for a_id in amenities]
+    # filter results by amenities_ids if not empty
+    if amenities_keys:
+        # fetch matching amenities in storage and filter out `None`
+        amenities = [storage.get(Amenity, a_id) for a_id in amenities_keys]
         amenities = list(filter(lambda x: x, amenities))
-        amenity_ids = [amenity.id for amenity in amenities]
-        if amenity_ids:
-            # print("amenity ids: ", amenity_ids)
-            temp_places = results.copy()
-            for place in temp_places:
-                if not place.amenities:
-                    # print("\nplace ", place.name, "has no amenities")
+        for amenity in amenities:
+            # discard place if amenity is not in place
+            for place in results:
+                if amenity.id not in place.amenities:
                     results.discard(place)
-                else:
-                    p_amenity_ids = [amen.id for amen in place.amenities]
-                    # print("\nplace: ", place.name, "has: ", p_amenity_ids)
-                    for amenity_id in amenity_ids:
-                        if amenity_id not in p_amenity_ids:
-                            # print(f"discarding place: {place.name}")
-                            results.discard(place)
+
     results = [place.to_dict() for place in results]
     for place in results:
-        if place.get("amenities"):
-            del place["amenities"]
+        del place["amenities"]
     res = json.dumps(results, indent=2) + '\n'
     return Response(res, mimetype="application/json")
