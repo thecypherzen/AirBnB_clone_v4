@@ -240,12 +240,14 @@ def search_places():
         amenities = list(filter(lambda x: x, amenities))
         for amenity in amenities:
             # discard place if amenity is not in place
-            for place in results:
+            results_copy = results.copy()
+            for place in results_copy:
                 if amenity.id not in place.amenities:
                     results.discard(place)
 
     results = [place.to_dict() for place in results]
     for place in results:
-        del place["amenities"]
+        if place.get("amenities"):
+            del place["amenities"]
     res = json.dumps(results, indent=2) + '\n'
     return Response(res, mimetype="application/json")
