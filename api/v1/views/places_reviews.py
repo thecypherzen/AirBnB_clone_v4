@@ -94,19 +94,10 @@ def create_review(place_id):
     if not data.get("text"):
         abort(400, description="Missing text")
 
-    print("400 check passed: ", "{ user_id: ", data.get("user_id"),
-          " }", "{ text: ", data.get("text"), " }")
     # check if user_id and place_id is valid
     user = storage.get(User, data.get('user_id'))
     place = storage.get(Place, place_id)
     if not all([user, place]):
-        print("caught: 01")
-        abort(404)
-
-    # check if user_id and place_id of place match
-    if not all([place.user_id == data.get('user_id'),
-                place.id == place_id]):
-        print("caught: 02")
         abort(404)
 
     # create new review
