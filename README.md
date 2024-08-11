@@ -13,6 +13,10 @@ The **AirBnB clone - The console** is the starting point of building the first f
   - update attributes of an object
   - destroy an object
 
+## What is AirBnB_clone_v4? ##
+It's the fourth step in buiding our [AirBnb_clone](). In this step of the journey, we add we make our project to load data from our database so it's dynamic. The features it adds are as follows:
+- First
+
 <br/>
 ## The Console Explained ##
 ### How to Use ###
@@ -124,52 +128,16 @@ Usage: <class_name>.update(<_id>, <dictionary>)
 - **Date Created:** Mar 4 2024.
 - **Authors:**
 	- [William Inyam](https.//github.com/thecypherzen)
-	- [Valentine Nyibiam](https.//github.com/ValentineNyibiam)
 - **Project Timeline:**
-  - **Released:** Mar. 4, 2024 - 6am.
-  - **1st Deadline:** Mar 11, 2024 - 6am.
-  - **Duration:** 7 days.
-  - **Month** 5, **Week** 3.
+  - **Released:** Aug 8, 2024 - 6am.
+  - **1st Deadline:** Aug 12, 2024 - 6am.
+  - **Duration:** 4 days.
 
 
 <br/>
 
 ## File Tree ##
-AirBnB_clone<br/>
-├── AUTHORS<br/>
-├── README.md<br/>
-├── console.py<br/>
-├── genauthors.sh<br/>
-├── models<br/>
-│   ├── __init__.py<br/>
-│   ├── amenity.py<br/>
-│   ├── base_model.py<br/>
-│   ├── city.py<br/>
-│   ├── engine<br/>
-│   │   ├── .hbnb_storage.json<br/>
-│   │   ├── __init__.py<br/>
-│   │   │   ├── __init__.cpython-38.pyc<br/>
-│   │   │   └── file_storage.cpython-38.pyc<br/>
-│   │   └── file_storage.py<br/>
-│   ├── place.py<br/>
-│   ├── review.py<br/>
-│   ├── state.py<br/>
-│   └── user.py<br/>
-├── tests<br/>
-│   ├── __init__.py<br/>
-│   └── test_models<br/>
-│       ├── __init__.py<br/>
-│       ├── test_amenity.py<br/>
-│       ├── test_base_model.py<br/>
-│       ├── test_city.py<br/>
-│       ├── test_engine<br/>
-│       │   ├── __init__.py<br/>
-│       │   └── test_file_storage.py<br/>
-│       ├── test_place.py<br/>
-│       ├── test_review.py<br/>
-│       ├── test_state.py<br/>
-│       └── test_user.py<br/>
-└── web_static<br/>
+Coming soon
 
 <br/>
 
@@ -191,3 +159,4 @@ AirBnB_clone<br/>
 | 4. | [models]() | Package of all modules that define object classes. |
 | 5. | [tests]() | Package of all modules that define unittests. |
 | 6. | [web_static]() | Folder containing all HBNB static files for the web |
+| 7. | [api]() | Api definition for our AirBnB_clone.
