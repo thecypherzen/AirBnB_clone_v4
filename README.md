@@ -159,4 +159,4 @@ Coming soon
 | 4. | [models]() | Package of all modules that define object classes. |
 | 5. | [tests]() | Package of all modules that define unittests. |
 | 6. | [web_static]() | Folder containing all HBNB static files for the web |
-| 7. | [api]() | Api definition for our AirBnB_clone.
+| 7. | [api]() | Api definition for our AirBnB_clone.|
