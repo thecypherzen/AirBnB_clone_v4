@@ -1,6 +1,6 @@
 .filters {
     display: grid;
-    grid-template-columns: 25% 25% 30% 20%;
+    grid-template-columns: 25% 35% auto 20%;
     background-color: white;
     height: 70px;
     min-width: 100%;
@@ -8,10 +8,11 @@
     border-radius: 4px;
 }
 
+
 .locations {
     align-items: center;
     position: relative;
-    height: 100%;
+    height: 70px;
     line-height: 20px;
     border-right: 1px solid #DDDDDD;
 }
@@ -19,10 +20,22 @@
 .amenities {
     align-items: center;
     position: relative;
-    height: 100%;
+    height: 70px;
     line-height: 20px;
 }
 
+.amenities h4{
+    margin-top: 0px;
+    white-space: nowrap;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.amenities h3 {
+    margin-bottom: 5px;
+}
 .popover {
     position: absolute;
     left: -1px;
@@ -64,16 +77,23 @@ li {
 }
 
 .popover li li:hover {
-    width: 70%;
     border-radius: 10px;
     background: #FF5A5F66;
     opacity: 0.96;
     scale: 1.1;
 }
 
+.amenities .popover li{
+    padding: 5px 25px;
+}
+
+.amenities .popover input{
+    margin-right: 10px;
+}
 .amenities .popover li:hover {
     border-radius: 10px;
 }
+
 
 h2 {
 	font-size: 16px;
