@@ -8,7 +8,7 @@ from models.city import City
 from models.place import Place
 from models.state import State
 from models.user import User
-
+from uuid import uuid4 as uidgen
 
 app = Flask(__name__)
 
@@ -28,7 +28,6 @@ def populate_filters():
     state_objs = storage.all(State).values()
     for state_obj in state_objs:
         state_dict = state_obj.to_dict()
-
         # get cities in current state
         state_dict["cities"] = []
         for city in state_obj.cities:
@@ -40,8 +39,10 @@ def populate_filters():
                 place["owner"] = storage.get(User, place["user_id"]).to_dict()
             state_dict["cities"].append(city_dict)
         all_states.append(state_dict)
-    return render_template("0-hbnb.html", amenities=amenities,
-                           states=all_states)
+    return render_template("0-hbnb.html",
+                           amenities=amenities,
+                           states=all_states,
+                           cache_id=uidgen())
 
 
 @app.teardown_appcontext
