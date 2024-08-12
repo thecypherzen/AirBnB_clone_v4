@@ -1,0 +1,1021 @@
+Script started on 2024-06-16 13:11:16+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="151" LINES="43"]
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static[01;31mlucius:[00m[01;34mstatic[00m$ c
+[H[2J[3J[0m[01;34mimages[0m  [01;34mscripts[0m  [01;34mstyles[0m  typescript
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static[01;31mlucius:[00m[01;34mstatic[00m$ ..[K[Kc[Kls images/
+[0m[01;35micon.png[0m  [01;35micon_bath.png[0m  [01;35micon_bed.png[0m  [01;35micon_group.png[0m  [01;35mlogo.png[0m
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static[01;31mlucius:[00m[01;34mstatic[00m$ cd c[Kx[Kscripts/
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static/scripts[01;31mlucius:[00m[01;34mscripts[00m$ c
+[H[2J[3J1-hbnb.js~  1-hbnb.js  2-hbnb.js~  2-hbnb.js  3-hbnb.js~  3-hbnb.js
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static/scripts[01;31mlucius:[00m[01;34mscripts[00m$ bdel
+
+Found 3 file(s) terminating with '~' or '#'
+PROCEED TO DELETE THEM ALL? [y/n]: y
+Deleting 3 file(s) ...
+Done
+
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static/scripts[01;31mlucius:[00m[01;34mscripts[00m$ c
+[H[2J[3J1-hbnb.js  2-hbnb.js  3-hbnb.js
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static/scripts[01;31mlucius:[00m[01;34mscripts[00m$ ..
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static[01;31mlucius:[00m[01;34mstatic[00m$ c
+[H[2J[3J[0m[01;34mimages[0m  [01;34mscripts[0m  [01;34mstyles[0m  typescript
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static[01;31mlucius:[00m[01;34mstatic[00m$ ls styles/
+3-footer.css  3-header.css  4-common.css  6-filters.css  8-places.css  [0m[01;32mw3c_validator.py[0m
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/static[01;31mlucius:[00m[01;34mstatic[00m$ ..
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic[01;31mlucius:[00m[01;34mweb_dynamic[00m$ c
+[H[2J[3J[0m[01;32m0-hbnb.py[0m  [01;32m1-hbnb.py[0m  [01;32m2-hbnb.py[0m  [01;32m3-hbnb.py[0m  [01;34mstatic[0m  [01;34mtemplates[0m  [01;32mtest.js[0m  [01;32m__init__.py[0m  [01;34m__pycache__[0m
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic[01;31mlucius:[00m[01;34mweb_dynamic[00m$ cd templates/
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/templates[01;31mlucius:[00m[01;34mtemplates[00m$ c
+[H[2J[3J0-hbnb.html  1-hbnb.html  2-hbnb.html  3-hbnb.html
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic/templates[01;31mlucius:[00m[01;34mtemplates[00m$ ..
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic[01;31mlucius:[00m[01;34mweb_dynamic[00m$ c
+[H[2J[3J[0m[01;32m0-hbnb.py[0m  [01;32m1-hbnb.py[0m  [01;32m2-hbnb.py[0m  [01;32m3-hbnb.py[0m  [01;34mstatic[0m  [01;34mtemplates[0m  [01;32mtest.js[0m  [01;32m__init__.py[0m  [01;34m__pycache__[0m
+]0;lucius@maverixvb: ~/AirBnB_clone_v4/web_dynamic[01;31mlucius:[00m[01;34mweb_dynamic[00m$ ..
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ c
+[H[2J[3J[0m[01;32m0-setup_web_static.sh[0m      3-deploy_web_static.py  [01;34mapi[0m              [01;34mmodels[0m             setup_mysql_dev.sql   [01;34mweb_dynamic[0m
+1-pack_web_static.py       AUTHORS                 code_review.txt  [01;32mmytest.py[0m          setup_mysql_test.sql  [01;34mweb_flask[0m
+2-do_deploy_web_static.py  README.md               [01;32mconsole.py[0m       [01;32mrestart_server.py[0m  [01;34mtests[0m                 [01;34mweb_static[0m
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ git sta[K[K[Kadd .
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ git commm[Kit -m "build(ma[K[Ka[Khanb4[K[K[K[Kbnb4:cm[K[K)[K[K): mang[Ky [K[K[K[K[Keffect many changes"
+[main 3ff5b31] build(hbnb4): effect many changes
+ 17 files changed, 237 insertions(+), 79 deletions(-)
+ create mode 100644 .gitignore
+ rewrite api/v1/__pycache__/app.cpython-38.pyc (84%)
+ delete mode 100755 mytest.py~
+ delete mode 100755 restart_server.py~
+ rename web_dynamic/{1-hbnb.py~ => 2-hbnb.py} (93%)
+ create mode 100755 web_dynamic/3-hbnb.py
+ create mode 100644 web_dynamic/__pycache__/2-hbnb.cpython-38.pyc
+ delete mode 100644 web_dynamic/static/scripts/1-hbnb.js~
+ create mode 100644 web_dynamic/static/scripts/2-hbnb.js
+ create mode 100644 web_dynamic/static/scripts/3-hbnb.js
+ create mode 100644 web_dynamic/static/typescript
+ rename web_dynamic/templates/{1-hbnb.html~ => 2-hbnb.html} (92%)
+ create mode 100644 web_dynamic/templates/3-hbnb.html
+ delete mode 100755 web_dynamic/test.js~
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ git push
+Enumerating objects: 40, done.
+Counting objects:   2% (1/40)Counting objects:   5% (2/40)Counting objects:   7% (3/40)Counting objects:  10% (4/40)Counting objects:  12% (5/40)Counting objects:  15% (6/40)Counting objects:  17% (7/40)Counting objects:  20% (8/40)Counting objects:  22% (9/40)Counting objects:  25% (10/40)Counting objects:  27% (11/40)Counting objects:  30% (12/40)Counting objects:  32% (13/40)Counting objects:  35% (14/40)Counting objects:  37% (15/40)Counting objects:  40% (16/40)Counting objects:  42% (17/40)Counting objects:  45% (18/40)Counting objects:  47% (19/40)Counting objects:  50% (20/40)Counting objects:  52% (21/40)Counting objects:  55% (22/40)Counting objects:  57% (23/40)Counting objects:  60% (24/40)Counting objects:  62% (25/40)Counting objects:  65% (26/40)Counting objects:  67% (27/40)Counting objects:  70% (28/40)Counting objects:  72% (29/40)Counting objects:  75% (30/40)Counting objects:  77% (31/40)Counting objects:  80% (32/40)Counting objects:  82% (33/40)Counting objects:  85% (34/40)Counting objects:  87% (35/40)Counting objects:  90% (36/40)Counting objects:  92% (37/40)Counting objects:  95% (38/40)Counting objects:  97% (39/40)Counting objects: 100% (40/40)Counting objects: 100% (40/40), done.
+Delta compression using up to 2 threads
+Compressing objects:   4% (1/24)Compressing objects:   8% (2/24)Compressing objects:  12% (3/24)Compressing objects:  16% (4/24)Compressing objects:  20% (5/24)Compressing objects:  25% (6/24)Compressing objects:  29% (7/24)Compressing objects:  33% (8/24)Compressing objects:  37% (9/24)Compressing objects:  41% (10/24)Compressing objects:  45% (11/24)Compressing objects:  50% (12/24)Compressing objects:  54% (13/24)Compressing objects:  58% (14/24)Compressing objects:  62% (15/24)Compressing objects:  66% (16/24)Compressing objects:  70% (17/24)Compressing objects:  75% (18/24)Compressing objects:  79% (19/24)Compressing objects:  83% (20/24)Compressing objects:  87% (21/24)Compressing objects:  91% (22/24)Compressing objects:  95% (23/24)Compressing objects: 100% (24/24)Compressing objects: 100% (24/24), done.
+Writing objects:   4% (1/25)Writing objects:   8% (2/25)Writing objects:  12% (3/25)Writing objects:  16% (4/25)Writing objects:  20% (5/25)Writing objects:  24% (6/25)Writing objects:  28% (7/25)Writing objects:  32% (8/25)Writing objects:  36% (9/25)Writing objects:  40% (10/25)Writing objects:  44% (11/25)Writing objects:  48% (12/25)Writing objects:  56% (14/25)Writing objects:  60% (15/25)Writing objects:  64% (16/25)Writing objects:  68% (17/25)Writing objects:  72% (18/25)Writing objects:  80% (20/25)Writing objects:  84% (21/25)Writing objects:  88% (22/25)Writing objects:  92% (23/25)Writing objects: 100% (25/25)Writing objects: 100% (25/25), 7.57 KiB | 645.00 KiB/s, done.
+Total 25 (delta 12), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/12)[Kremote: Resolving deltas:   8% (1/12)[Kremote: Resolving deltas:  16% (2/12)[Kremote: Resolving deltas:  25% (3/12)[Kremote: Resolving deltas:  33% (4/12)[Kremote: Resolving deltas:  41% (5/12)[Kremote: Resolving deltas:  50% (6/12)[Kremote: Resolving deltas:  58% (7/12)[Kremote: Resolving deltas:  66% (8/12)[Kremote: Resolving deltas:  75% (9/12)[Kremote: Resolving deltas:  83% (10/12)[Kremote: Resolving deltas:  91% (11/12)[Kremote: Resolving deltas: 100% (12/12)[Kremote: Resolving deltas: 100% (12/12), completed with 9 local objects.[K
+To https://github.com/ValentineNyibiam/AirBnB_clone_v4.git
+   0cf15f9..3ff5b31  main -> main
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ clear
+[H[2J[3J]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ git branch
+[?1h=* [32mmain[m[m
+[K[?1l>]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ c
+[H[2J[3J[0m[01;32m0-setup_web_static.sh[0m      3-deploy_web_static.py  [01;34mapi[0m              [01;34mmodels[0m             setup_mysql_dev.sql   [01;34mweb_dynamic[0m
+1-pack_web_static.py       AUTHORS                 code_review.txt  [01;32mmytest.py[0m          setup_mysql_test.sql  [01;34mweb_flask[0m
+2-do_deploy_web_static.py  README.md               [01;32mconsole.py[0m       [01;32mrestart_server.py[0m  [01;34mtests[0m                 [01;34mweb_static[0m
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ m[Ke[Ke[Ksmake -p tes[K[K[K[K my[K[K[K[K[K[Kd[Ke mytest.py 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) --------------------------------------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[>0c[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All (1,0)      (Lisp Interaction WS ElDoc) --------------------------------------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?2004h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[1;5H[?12l[?25h[?12;25h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[90m  1 [39;49m[38;5;124m#!/usr/bin/python3                                                                                                                                 [39;49m
+[A
+[90m  2 [39;49m[38;5;129mfrom[39;49m uuid [38;5;129mimport[39;49m uuid4[K
+[90m  3 [39;49m[K
+[90m  4 [39;49m[38;5;129mfor[39;49m i [38;5;129min[39;49m [38;5;60mrange[39;49m(10):[K
+[90m  5 [39;49m    [38;5;129mprint[39;49m(uuid4())[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250mmytest.py   [0m[39;49m[30m[48;5;250m   All (1,0)     Git-main  (Python WS ElDoc) ---------------------------------------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[43;1H[K[1;5H[?25l                                                                                                                                                   
+[2;5H                                                                                                                                                   
+[3;5H[38;5;129mfor[39;49m i [38;5;129min[39;49m [38;5;60mrange[39;49m(10):[4;5H    [38;5;129mprint[39;49m(uuid4())[K[5;3H[90m  [39;49m[K[42;6H[30m[48;5;250m**[39;49m[1;5H[?12l[?25h[?12;25h[?25l[38;5;124m[43m                                                                                                                                                   [39;49m
+[2;3H[90m  [39;49m[K
+[90m  [39;49m[K
+[90m  [39;49m[K[1d[?12l[?25h[?12;25h[?25l[90m  [39;49m[K[?12l[?25h[?12;25h[?5h[?5l[43;1H[?25lEnd of buffer[1;5H[?12l[?25h[?12;25h[43;1H[K[1;5H[43;1H[?25lMark set[1;5H[?12l[?25h[?12;25h[?25l[90m38 [39;49m[38;5;129mwith[39;49m Connection(host, user=user, connect_kwargs={[38;5;89m"pkey"[39;49m: rsa_key}) [38;5;129mas[39;49m c:
+[C[90m39 [39;49m    c.run([38;5;89m"netstat -na | grep '5003.* LISTEN'"[39;49m, shell=[38;5;89m"/bin/bash"[39;49m, out_stream=ou[38;5;213m[48;5;236mtput, warn=True)[39;49m
+[C[90m40 [39;49m    [38;5;129mif[39;49m output.getvalue():
+[C[90m41 [39;49m        [38;5;130mcurl_output[39;49m = curl_server(host, route)
+[C[90m42 [39;49m        [38;5;129mprint[39;49m(parse_curl_output(curl_output), end=[38;5;89m""[39;49m)
+[C[90m43 [39;49m        [38;5;30mexit[39;49m(0)
+[C[90m44 [39;49m    [38;5;129melse[39;49m:
+[C[90m45 [39;49m        c.run([38;5;89m"cd AirBnB_clone_v4 && bash -lc \"tmux new-session -d 'gunicorn --[39;49m[38;5;213m[48;5;236mbind 0.0.0.0:5003 -p /tmp/gunginx5.pid web_dynamic.2-hbnb:app'\"",[39;49m\
+[9;5H[38;5;213m[48;5;236m shell="/bin/bash", warn=True)[39;49m
+[C[90m46 [39;49m        [38;5;129mfor[39;49m i [38;5;129min[39;49m [38;5;60mrange[39;49m(5):
+[C[90m47 [39;49m            [38;5;130mcurl_output[39;49m = curl_server(host, route)
+[C[90m48 [39;49m            [38;5;130mparsed_output[39;49m = parse_curl_output(curl_output)
+[C[90m49 [39;49m            [38;5;129mif[39;49m parsed_output == [38;5;89m"OK"[39;49m:
+[C[90m50 [39;49m                [38;5;129mprint[39;49m(parsed_output, end=[38;5;89m""[39;49m)
+[C[90m51 [39;49m                c.run([38;5;89m"sudo kill -9 `cat /tmp/gunginx5.pid` > /dev/null 2>&1"[39;49m, s[38;5;213m[48;5;236mhell="/bin/bash", warn=True)[39;49m
+[C[90m52 [39;49m                [38;5;30mexit[39;49m(0)
+[C[90m53 [39;49m        [38;5;129mprint[39;49m(parsed_output, end=[38;5;89m""[39;49m)
+[C[90m54 [39;49m        c.run([38;5;89m"sudo kill -9 `cat /tmp/gunginx5.pid` > /dev/null 2>&1"[39;49m, shell=[38;5;89m"/b[39;49m[38;5;213m[48;5;236min/bash", warn=True)[39;49m
+[C[90m55 [39;49m        [38;5;30mexit[39;49m(0)
+[C[90m56 [39;49m                                                                                                                                                   
+[42;29H[30m[48;5;250mBot (57,0)[39;49m[21;5H[?12l[?25h[?12;25h[43;1H[?25lAuto-saving...[21;5H[?12l[?25h[?12;25h[43;1H[?25lMark set[K[21;5H[?12l[?25h[?12;25h[43;1H[K[21;5H[43;1H[?25lSaving file /home/lucius/AirBnB_clone_v4/mytest.py...[21;5H[?12l[?25h[?12;25h[43;1H[?25lWrote /home/lucius/AirBnB_clone_v4/mytest.py[K[21;5H[?12l[?25h[?12;25h[42;6H[?25l[30m[48;5;250m----F1  [39;49m[1m[30m[48;5;250mmytest.py   [0m[39;49m[30m[48;5;250m   Bot (57,0)    Git:[39;49m[21;5H[?12l[?25h[?12;25h[43;1H[K[21;5H[43;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ clear
+[H[2J[3J]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ ls[K[K[K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ [K]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ ./ mytest.py 100.25.200.149 ubuntu ~/key_stack/.[Kweb01_ubuntu.pub[K[K[K.web01_ubuntu[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcurl 100.25.200.149/2-hbnb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 100.25.200.149/2-hbnb- 100.25.200.149/2-hbnbs 100.25.200.149/2-hbnbI 100.25.200.149/2-hbnb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C | head -1 | h[Khd[K[Kpre[K[K[Kcut -d ' ' -f2
+200
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ curl -sI 100.25.200.149/2-hbnb | head -1 | cut -d ' ' -f2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@:[1@5[1@0[1@0[1@3
+^C
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ curl -sI 100.25.200.149:5003/2-hbnb | head -1 | cut -d ' ' -f2
+200
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ clr
+
+Command 'clr' not found, did you mean:
+
+  command 'cwr' from snap cwr (0.4.2)
+  command 'csr' from deb rheolef (7.1-1)
+  command 'cpr' from deb node-cpr (3.0.1-1)
+  command 'ctr' from deb containerd (1.7.2-0ubuntu1~20.04.1)
+  command 'mlr' from deb miller (5.6.2-1)
+  command 'cli' from deb mono-runtime (6.8.0.105+dfsg-2)
+  command 'clp' from deb coinor-clp (1.17.5+repack1-1)
+  command 'cl' from deb cl-launch (4.1.4-1)
+  command 'car' from deb ucommon-utils (7.0.0-16ubuntu2)
+  command 'clm' from deb mcl (1:14-137+ds-4)
+  command 'ccr' from deb codecrypt (1.8-1build1)
+  command 'cyr' from deb console-cyrillic (0.9-17)
+  command 'lr' from deb lr (1.5.1-2)
+
+See 'snap info <snapname>' for additional versions.
+
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ clear
+[H[2J[3J]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ c
+[H[2J[3J[0m[01;32m0-setup_web_static.sh[0m      3-deploy_web_static.py  [01;34mapi[0m              [01;34mmodels[0m             setup_mysql_dev.sql   [01;34mweb_dynamic[0m
+1-pack_web_static.py       AUTHORS                 code_review.txt  [01;32mmytest.py[0m          setup_mysql_test.sql  [01;34mweb_flask[0m
+2-do_deploy_web_static.py  README.md               [01;32mconsole.py[0m       [01;32mrestart_server.py[0m  [01;34mtests[0m                 [01;34mweb_static[0m
+]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ e restart_server.py 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) --------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[>0c[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All (1,0)      (Lisp Interaction WS ElDoc) --------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?2004h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[1;5H[?12l[?25h[?12;25h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[90m  1 [39;49m[38;5;124m#!/usr/bin/python3                                                                                                   [39;49m
+[A
+[90m  2 [39;49m[38;5;129mimport[39;49m requests[K
+[90m  3 [39;49m[38;5;129mimport[39;49m subprocess[K
+[90m  4 [39;49m[38;5;129mimport[39;49m sys[K
+[90m  5 [39;49m[K
+[90m  6 [39;49m[K
+[90m  7 [39;49m[38;5;129mdef[39;49m [38;5;21mstop_server[39;49m():[K
+[90m  8 [39;49m    subprocess.run([[38;5;89m"pkill"[39;49m, [38;5;89m"python3"[39;49m], capture_output=[38;5;30mFalse[39;49m)[K
+[90m  9 [39;49m[K
+[90m 10 [39;49m[K
+[90m 11 [39;49m[38;5;129mdef[39;49m [38;5;21mrun_server[39;49m(uri):[K
+[90m 12 [39;49m    [38;5;129mtry[39;49m:[K
+[90m 13 [39;49m        [38;5;130mres[39;49m = subprocess.run([[38;5;89m"python3"[39;49m, [38;5;89m"-m"[39;49m, f[38;5;89m"{uri}"[39;49m],[K
+[90m 14 [39;49m                             text=[38;5;30mTrue[39;49m, capture_output=[38;5;30mFalse[39;49m)[K
+[90m 15 [39;49m    [38;5;129mexcept[39;49m [38;5;28mKeyboardInterrupt[39;49m:[K
+[90m 16 [39;49m        [38;5;129mprint[39;49m()[K
+[90m 17 [39;49m        stop_server()[K
+[90m 18 [39;49m[K
+[90m 19 [39;49m[38;5;129mif[39;49m [38;5;60mlen[39;49m(sys.argv) == 1:[K
+[90m 20 [39;49m    [38;5;129mprint[39;49m(f[38;5;89m"usage: {sys.argv[0]} ['web'|'app']"[39;49m)[K
+[90m 21 [39;49m    sys.[38;5;30mexit[39;49m(1)[K
+[90m 22 [39;49m[K
+[90m 23 [39;49m[38;5;129mif[39;49m sys.argv[1] == [38;5;89m"api"[39;49m:[K
+[90m 24 [39;49m   [38;5;130muri[39;49m = [38;5;89m"api.v1.app"[39;49m[K
+[90m 25 [39;49m[38;5;129melif[39;49m sys.argv[1] == [38;5;89m"web"[39;49m:[K
+[90m 26 [39;49m   [38;5;130muri[39;49m = [38;5;89m"web_dynamic.0-hbnb"[39;49m[K
+[90m 27 [39;49m[38;5;129melse[39;49m:[K
+[90m 28 [39;49m    [38;5;129mprint[39;49m(f[38;5;89m"usage: {sys.argv[0]} ['web'|'app']"[39;49m)[K
+[90m 29 [39;49m    sys.[38;5;30mexit[39;49m(1)[K
+[90m 30 [39;49m[K
+[90m 31 [39;49m[K
+[90m 32 [39;49m[38;5;129mtry[39;49m:[K
+[90m 33 [39;49m    [38;5;124m# response = requests.get("http://0.0.0.0:5000/api/v1/states")                                                   [39;49m
+[A
+[90m 34 [39;49m    stop_server()[K
+[90m 35 [39;49m    run_server(uri)[K
+[90m 36 [39;49m[38;5;129mexcept[39;49m requests.[38;5;28mConnectionError[39;49m:[K
+[90m 37 [39;49m    run_server(uri)[K
+[90m 38 [39;49m    sys.[38;5;30mexit[39;49m(0)[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250mrestart_server.py[0m[39;49m[30m[48;5;250m   All (1,0)     Git-main  (Python WS ElDoc) ----------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[43;1H[K[1;5H[43;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ clear
+[H[2J[3J]0;lucius@maverixvb: ~/AirBnB_clone_v4[01;31mlucius:[00m[01;34mAirBnB_clone_v4[00m$ ..[K[Kcd ../als-sys[K[K[K[K[Kx-system_engineering-devops/0x14[Ka[KA-application_server/
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ c
+[H[2J[3J2-app_server-nginx_config  3-app_server-nginx_config  4-app_server-nginx_config  5-app_server-nginx_config  README.md
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ e 5-app_server-nginx_config 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) --------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[>0c[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All (1,0)      (Lisp Interaction WS ElDoc) --------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?2004h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[1;5H[?12l[?25h[?12;25h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[90m  1 [39;49mserver {[K
+[90m  2 [39;49m       listen 80 default_server;[K
+[90m  3 [39;49m       listen [::]:80 default_server;[K
+[90m  4 [39;49m[K
+[90m  5 [39;49m       root /var/www/html;[K
+[90m  6 [39;49m       server_name _;[K
+[90m  7 [39;49m       add_header X-Served-By $hostname always;[K
+[90m  8 [39;49m[K
+[90m  9 [39;49m       location / {[K
+[90m 10 [39;49m                root /home/ubuntu/AirBnB_clone_v4/web_dynamic/static/;[K
+[90m 11 [39;49m                # try_files $uri $uri/ =404;[K
+[90m 12 [39;49m                proxy_pass http://0.0.0.0:5003/;[K
+[90m 13 [39;49m       }[K
+[90m 14 [39;49m[K
+[90m 15 [39;49m       location /airbnb-onepage/{[K
+[90m 16 [39;49m                proxy_pass http://0.0.0.0:5000/;[K
+[90m 17 [39;49m       }[K
+[90m 18 [39;49m[K
+[90m 19 [39;49m       location ~* /airbnb-dynamic/number_odd_or_even/([0-9]+)$ {[K
+[90m 20 [39;49m                proxy_pass http://0.0.0.0:5001/number_odd_or_even/$1;[K
+[90m 21 [39;49m       }[K
+[90m 22 [39;49m[K
+[90m 23 [39;49m       location /api/ {[K
+[90m 24 [39;49m                proxy_pass http://0.0.0.0:5002;[K
+[90m 25 [39;49m       }[K
+[90m 26 [39;49m}[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250m5-app_server-nginx_config[0m[39;49m[30m[48;5;250m   All (1,0)     Git-main  (Fundamental WS) ---------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[43;1H[K[42;47H[?25l[30m[48;5;250m2[39;49m[2;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m3[39;49m[3;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m4[39;49m[4;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m5[39;49m[5;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m6[39;49m[6;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m7[39;49m[7;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m8[39;49m[8;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m9[39;49m[9;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m10,0)[39;49m[10;5H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m1[39;49m[11;5H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m2[39;49m[12;5H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m3[39;49m[13;5H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m2[39;49m[12;5H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m48)[39;49m[12d[?12l[?25h[?12;25h[42;51H[?25l[30m[48;5;250m7[39;49m[12d[?12l[?25h[?12;25h[?25l;[K[42;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250m5-app_server-nginx_config[0m[39;49m[30m[48;5;250m   All (12,46[39;49m[12;51H[?12l[?25h[?12;25h[43;1H[?25lSaving file /home/lucius/alx-system_engineering-devops/0x1A-application_server/5-app_server-nginx_config...[12;51H[?12l[?25h[?12;25h[43;1H[?25lWrote /home/lucius/alx-system_engineering-devops/0x1A-application_server/5-app_server-nginx_config[K[12;51H[?12l[?25h[?12;25h[42;6H[?25l[30m[48;5;250m----F1  [39;49m[1m[30m[48;5;250m5-app_server-nginx_config[0m[39;49m[30m[48;5;250m   All (12,46)   Git:[39;49m[12;51H[?12l[?25h[?12;25h[43;1H[K[42;48H[?25l[30m[48;5;250m1,44[39;49m[11;49H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m0) [39;49m[11;5H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m8[39;49m[11;13H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m16)[39;49m[11;21H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m8) [39;49m[11;13H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m16)[39;49m[11;21H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m0[39;49m[10;21H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m70[39;49m[10;75H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m69[39;49m[10;74H[?12l[?25h[?12;25h[?25l;[K[42;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250m5-app_server-nginx_config[0m[39;49m[30m[48;5;250m   All (10,68[39;49m[10;73H[?12l[?25h[?12;25h[43;1H[?25lSaving file /home/lucius/alx-system_engineering-devops/0x1A-application_server/5-app_server-nginx_config...[10;73H[?12l[?25h[?12;25h[43;1H[?25lWrote /home/lucius/alx-system_engineering-devops/0x1A-application_server/5-app_server-nginx_config[K[10;73H[?12l[?25h[?12;25h[42;6H[?25l[30m[48;5;250m--[39;49m[10;73H[?12l[?25h[?12;25h[43;1H[K[10;73H[43;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ e 5-app_server-nginx_config c[Kd ../alx-system_engineering-devops/0x1A-application_server/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[Ke restart_server.py c[Klear[2Prurl -sI 100.25.200.149:5003/2-hbnb | head -1 | cut -d ' ' -f2[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5@:5003[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[1@8[1@0
+200
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ curl -sI 100.25.200.149:80/2-hbnb | head -1 | cut -d ' ' -f2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@3[1P[1@5[1@0[1@3
+^C
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ curl -sI 100.25.200.149:503/2-hbnb | head -1 | cut -d ' ' -f2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1@0[1@3
+200
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ e 5-app_server-nginx_config 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) --------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[>0c[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All (1,0)      (Lisp Interaction WS ElDoc) --------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?2004h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[1;5H[?12l[?25h[?12;25h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[90m  1 [39;49mserver {[K
+[90m  2 [39;49m       listen 80 default_server;[K
+[90m  3 [39;49m       listen [::]:80 default_server;[K
+[90m  4 [39;49m[K
+[90m  5 [39;49m       root /var/www/html;[K
+[90m  6 [39;49m       server_name _;[K
+[90m  7 [39;49m       add_header X-Served-By $hostname always;[K
+[90m  8 [39;49m[K
+[90m  9 [39;49m       location / {[K
+[90m 10 [39;49m                root /home/ubuntu/AirBnB_clone_v4/web_dynamic/static;[K
+[90m 11 [39;49m                # try_files $uri $uri/ =404;[K
+[90m 12 [39;49m                proxy_pass http://0.0.0.0:5003;[K
+[90m 13 [39;49m       }[K
+[90m 14 [39;49m[K
+[90m 15 [39;49m       location /airbnb-onepage/{[K
+[90m 16 [39;49m                proxy_pass http://0.0.0.0:5000/;[K
+[90m 17 [39;49m       }[K
+[90m 18 [39;49m[K
+[90m 19 [39;49m       location ~* /airbnb-dynamic/number_odd_or_even/([0-9]+)$ {[K
+[90m 20 [39;49m                proxy_pass http://0.0.0.0:5001/number_odd_or_even/$1;[K
+[90m 21 [39;49m       }[K
+[90m 22 [39;49m[K
+[90m 23 [39;49m       location /api/ {[K
+[90m 24 [39;49m                proxy_pass http://0.0.0.0:5002;[K
+[90m 25 [39;49m       }[K
+[90m 26 [39;49m}[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250m5-app_server-nginx_config[0m[39;49m[30m[48;5;250m   All (1,0)     Git:main  (Fundamental WS) ---------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[43;1H[K[42;47H[?25l[30m[48;5;250m2[39;49m[2;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m3[39;49m[3;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m4[39;49m[4;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m5[39;49m[5;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m6[39;49m[6;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m7[39;49m[7;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m8[39;49m[8;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m9[39;49m[9;5H[?12l[?25h[?12;25h[42;47H[?25l[30m[48;5;250m10,0)[39;49m[10;5H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m1[39;49m[11;5H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m0[39;49m[10;5H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m1[39;49m[10;6H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m2[39;49m[10;7H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m3[39;49m[10;8H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m4[39;49m[10;9H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m5[39;49m[10;10H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m6[39;49m[10;11H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m7[39;49m[10;12H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m8[39;49m[10;13H[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m16)[39;49m[10;21H[?12l[?25h[?12;25h[42;51H[?25l[30m[48;5;250m7[39;49m[10;22H[?12l[?25h[?12;25h[42;51H[?25l[30m[48;5;250m8[39;49m[10;23H[?12l[?25h[?12;25h[42;51H[?25l[30m[48;5;250m9[39;49m[10;24H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m1[39;49m[11;24H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m2[39;49m[12;24H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m3,8) [39;49m[13;13H[?12l[?25h[?12;25h[9;23H[?25l[48;5;80m{[39;49m[13;12H[48;5;80m}[39;49m[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m2,19)[39;49m[12;24H[?12l[?25h[?12;25h[9;23H[?25l{[13;12H}[A		[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m3,8) [39;49m[13;13H[?12l[?25h[?12;25h[9;23H[?25l[48;5;80m{[39;49m[13;12H[48;5;80m}[39;49m[?12l[?25h[?12;25h[43;1H[?25l(No changes need to be saved)[13;13H[?12l[?25h[?12;25h[43;1H[K[42;48H[?25l[30m[48;5;250m4,0[39;49m[14;5H[?12l[?25h[?12;25h[9;23H[?25l{[13;12H}[14;5H[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m3,8[39;49m[13;13H[?12l[?25h[?12;25h[9;23H[?25l[48;5;80m{[39;49m[13;12H[48;5;80m}[39;49m[?12l[?25h[?12;25h[42;48H[?25l[30m[48;5;250m2[39;49m[12;13H[?12l[?25h[?12;25h[9;23H[?25l{[13;12H}[A[?12l[?25h[?12;25h[42;50H[?25l[30m[48;5;250m47)[39;49m[12;52H[?12l[?25h[?12;25h[42;51H[?25l[30m[48;5;250m6[39;49m[12;51H[?12l[?25h[?12;25h[?25l/;[42;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250m5-app_server-nginx_config[0m[39;49m[30m[48;5;250m   All (12,47[39;49m[12d[?12l[?25h[?12;25h[?25l2;[42;51H[30m[48;5;250m8[39;49m[12;53H[?12l[?25h[?12;25h[?25l-;[42;51H[30m[48;5;250m9[39;49m[12;54H[?12l[?25h[?12;25h[?25lh;[42;50H[30m[48;5;250m50[39;49m[12;55H[?12l[?25h[?12;25h[?25lb;[42;51H[30m[48;5;250m1[39;49m[12;56H[?12l[?25h[?12;25h[?25ln;[42;51H[30m[48;5;250m2[39;49m[12;57H[?12l[?25h[?12;25h[?25lb;[42;51H[30m[48;5;250m3[39;49m[12;58H[?12l[?25h[?12;25h[43;1H[?25lSaving file /home/lucius/alx-system_engineering-devops/0x1A-application_server/5-app_server-nginx_config...[12;58H[?12l[?25h[?12;25h[43;1H[?25lWrote /home/lucius/alx-system_engineering-devops/0x1A-application_server/5-app_server-nginx_config[K[12;58H[?12l[?25h[?12;25h[42;6H[?25l[30m[48;5;250m--[39;49m[12;58H[?12l[?25h[?12;25h[43;1H[K[12;58H[43;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ git add .
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ git commit -m "b[Kfix(h[Kasd:0x1A:5:[K): fi [Kx locatino[K[Kro[K[Kproxy in / location"
+[main f744028] fix(asd:0x1A:5): fix proxy in / location
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ git push
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 398 bytes | 398.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/thecypherzen/alx-system_engineering-devops.git
+   c59967f..f744028  main -> main
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ clear
+[H[2J[3J]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ e gunicor.service
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) --------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[>0c[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All (1,0)      (Lisp Interaction WS ElDoc) --------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?2004h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[1;5H[?12l[?25h[?12;25h[43;1H[?25l(New file)[K[1;5H[?12l[?25h[?12;25h[43;1H[?25l(New file)[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250mgunicor.service[0m[39;49m[30m[48;5;250m   All (1,0)      (Fundamental WS) ----------------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[43;1H[K[1;5H[43;1H[?25lMark set[1;5H[?12l[?25h[?12;25h[?25l[90m1 [39;49m[Unit][2;3H[90m2 [39;49mDescription=Gunicorn service serving 2-hbnb[3;3H[90m3 [39;49mAfter=network.target[4;3H[90m4[39;49m
+[90m5 [39;49m[Service][6;3H[90m6 [39;49mUser=ubuntu[7;3H[90m7 [39;49mGroup=www-data[8;3H[90m8 [39;49mWorkingDirectory=/home/ubuntu/AirBnB_clone_v4[9;3H[90m9 [39;49mExecStart=/home/ubuntu/.local/bin/gunicorn --workers 3 --bind 0.0.0.0:5003 web_\
+[C[90m10 [39;49mdynamic.2-hbnb:app
+[C[90m11[39;49m
+[90m12 [39;49m[Install]
+[C[90m13 [39;49mWantedBy=multi-user.target[42;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250mgunicor.service[0m[39;49m[30m[48;5;250m   All (13,26)[39;49m[13;31H[?12l[?25h[?12;25h[43;1H[?25lAuto-saving...[13;31H[?12l[?25h[?12;25h[43;1H[?25lMark set[K[13;31H[?12l[?25h[?12;25h[43;1H[K[42;38H[?25l[30m[48;5;250m4,0) [39;49m[14;5H[?12l[?25h[?12;25h[43;1H[?25lSaving file /home/lucius/alx-system_engineering-devops/0x1A-application_server/gunicor.service...[14;5H[?12l[?25h[?12;25h[43;1H[?25lWrote /home/lucius/alx-system_engineering-devops/0x1A-application_server/gunicor.service[K[14;5H[?12l[?25h[?12;25h[42;6H[?25l[30m[48;5;250m--[39;49m[14;5H[?12l[?25h[?12;25h[43;1H[K[14;5H[43;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ mv gunicor.service gu[K[Kgunicor.servicen.service
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ c
+[H[2J[3J2-app_server-nginx_config  4-app_server-nginx_config  README.md
+3-app_server-nginx_config  5-app_server-nginx_config  gunicorn.service
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ git [K[Ktpush .
+commit message: asd   build(asd:0x1A:6): a      ) add gunicorn.service
+[main 48649ed] build(asd:0x1A) add gunicorn.service
+ 1 file changed, 13 insertions(+)
+ create mode 100644 0x1A-application_server/gunicorn.service
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+Delta compression using up to 2 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 585 bytes | 585.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/thecypherzen/alx-system_engineering-devops.git
+   f744028..48649ed  main -> main
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ e 5-app_server-nginx_config [Kw [K[Ke gunicorn.service 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) --------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[>0c[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All (1,0)      (Lisp Interaction WS ElDoc) --------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?2004h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[1;5H[?12l[?25h[?12;25h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[90m  1 [39;49m[Unit][K
+[90m  2 [39;49mDescription=Gunicorn service serving 2-hbnb[K
+[90m  3 [39;49mAfter=network.target[K
+[90m  4 [39;49m[K
+[90m  5 [39;49m[Service][K
+[90m  6 [39;49mUser=ubuntu[K
+[90m  7 [39;49mGroup=www-data[K
+[90m  8 [39;49mWorkingDirectory=/home/ubuntu/AirBnB_clone_v4[K
+[90m  9 [39;49mExecStart=/home/ubuntu/.local/bin/gunicorn --workers 3 --bind 0.0.0.0:5003 web_\[K
+[90m 10 [39;49mdynamic.2-hbnb:app[K
+[90m 11 [39;49m[K
+[90m 12 [39;49m[Install][K
+[90m 13 [39;49mWantedBy=multi-user.target[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250mgunicorn.service[0m[39;49m[30m[48;5;250m   All (1,0)     Git-main  (Fundamental WS) ------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?25l[48;5;80m[[39;49mUnit[48;5;80m][39;49m[1;5H[?12l[?25h[?12;25h[43;1H[K[42;38H[?25l[30m[48;5;250m2[39;49m[2;5H[?12l[?25h[?12;25h[A[?25l[Unit][2;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m3[39;49m[3;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m4[39;49m[4;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m5[39;49m[5;5H[?12l[?25h[?12;25h[?25l[48;5;80m[[39;49mService[48;5;80m][39;49m[5;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m6[39;49m[6;5H[?12l[?25h[?12;25h[A[?25l[Service][6;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m7[39;49m[7;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m8[39;49m[8;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m9[39;49m[9;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m10,0)[39;49m[10;5H[?12l[?25h[?12;25h[42;39H[?25l[30m[48;5;250m1[39;49m[11;5H[?12l[?25h[?12;25h[42;39H[?25l[30m[48;5;250m2[39;49m[12;5H[?12l[?25h[?12;25h[?25l[48;5;80m[[39;49mInstall[48;5;80m][39;49m[12;5H[?12l[?25h[?12;25h[42;39H[?25l[30m[48;5;250m1[39;49m[11;5H[?12l[?25h[?12;25h
+[?25l[Install][11;5H[?12l[?25h[?12;25h
+[K
+[?25l[Install][K
+[C[90m14 [39;49mWantedBy=multi-user.target[42;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250mgunicorn.service[0m[39;49m[30m[48;5;250m   All (12[39;49m[12;5H[?12l[?25h[?12;25h[42;39H[?25l[30m[48;5;250m1[39;49m[11;5H[?12l[?25h[?12;25h[43;1H[?25lMark set[11;5H[?12l[?25h[?12;25h[?25lStandardError=/tmp/airbnb-error.log[12;5HStandardOutput=/tmp/airbnb-access.log[13;5H[K
+[Install][K
+[C[90m15 [39;49mWantedBy=multi-user.target[42;39H[30m[48;5;250m2,37)[39;49m[12;42H[?12l[?25h[?12;25h[43;1H[K[12;42H[43;1H[?25lSaving file /home/lucius/alx-system_engineering-devops/0x1A-application_server/gunicorn.service...[12;42H[?12l[?25h[?12;25h[43;1H[?25lWrote /home/lucius/alx-system_engineering-devops/0x1A-application_server/gunicorn.service[K[12;42H[?12l[?25h[?12;25h[42;6H[?25l[30m[48;5;250m----F1  [39;49m[1m[30m[48;5;250mgunicorn.service[0m[39;49m[30m[48;5;250m   All (12,37)   Git:[39;49m[12;42H[?12l[?25h[?12;25h[43;1H[K[12;42H[43;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ gitpush gunicorn.service
+commit message: fix(asd:x1A: ): add ser   se tdout and err defs   in gunicorn.service                                              :gunicorn):a dd ta      d stdout and stderr defs
+[main 8555fc2] fix(asd:x1A:gunicorn):ad stdout and stderr defs
+ 1 file changed, 2 insertions(+)
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 431 bytes | 215.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/thecypherzen/alx-system_engineering-devops.git
+   48649ed..8555fc2  main -> main
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ emacs gunicorn.service 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) --------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[>0c[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All (1,0)      (Lisp Interaction WS ElDoc) --------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?2004h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[1;5H[?12l[?25h[?12;25h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[90m  1 [39;49m[Unit][K
+[90m  2 [39;49mDescription=Gunicorn service serving 2-hbnb[K
+[90m  3 [39;49mAfter=network.target[K
+[90m  4 [39;49m[K
+[90m  5 [39;49m[Service][K
+[90m  6 [39;49mUser=ubuntu[K
+[90m  7 [39;49mGroup=www-data[K
+[90m  8 [39;49mWorkingDirectory=/home/ubuntu/AirBnB_clone_v4[K
+[90m  9 [39;49mExecStart=/home/ubuntu/.local/bin/gunicorn --workers 3 --bind 0.0.0.0:5003 web_\[K
+[90m 10 [39;49mdynamic.2-hbnb:app[K
+[90m 11 [39;49mStandardError=/tmp/airbnb-error.log[K
+[90m 12 [39;49mStandardOutput=/tmp/airbnb-access.log[K
+[90m 13 [39;49m[K
+[90m 14 [39;49m[Install][K
+[90m 15 [39;49mWantedBy=multi-user.target[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250mgunicorn.service[0m[39;49m[30m[48;5;250m   All (1,0)     Git-main  (Fundamental WS) ------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?25l[48;5;80m[[39;49mUnit[48;5;80m][39;49m[1;5H[?12l[?25h[?12;25h[43;1H[K[42;38H[?25l[30m[48;5;250m2[39;49m[2;5H[?12l[?25h[?12;25h[A[?25l[Unit][2;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m3[39;49m[3;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m4[39;49m[4;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m5[39;49m[5;5H[?12l[?25h[?12;25h[?25l[48;5;80m[[39;49mService[48;5;80m][39;49m[5;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m6[39;49m[6;5H[?12l[?25h[?12;25h[A[?25l[Service][6;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m7[39;49m[7;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m8[39;49m[8;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m9[39;49m[9;5H[?12l[?25h[?12;25h[42;38H[?25l[30m[48;5;250m10,0)[39;49m[10;5H[?12l[?25h[?12;25h[42;39H[?25l[30m[48;5;250m1[39;49m[11;5H[?12l[?25h[?12;25h[42;41H[?25l[30m[48;5;250m13)[39;49m[11;18H[?12l[?25h[?12;25h[42;42H[?25l[30m[48;5;250m8[39;49m[11;23H[?12l[?25h[?12;25h[42;42H[?25l[30m[48;5;250m5[39;49m[11;20H[?12l[?25h[?12;25h[42;42H[?25l[30m[48;5;250m4[39;49m[11;19H[?12l[?25h[?12;25h[?25l[1@a[42;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250mgunicorn.service[0m[39;49m[30m[48;5;250m   All (11,15[39;49m[11;20H[?12l[?25h[?12;25h[?25l[1@e[42;42H[30m[48;5;250m6[39;49m[11;21H[?12l[?25h[?12;25h[?25l[1P[42;42H[30m[48;5;250m5[39;49m[11;20H[?12l[?25h[?12;25h[?25l[1@p[42;42H[30m[48;5;250m6[39;49m[11;21H[?12l[?25h[?12;25h[?25l[1@e[42;42H[30m[48;5;250m7[39;49m[11;22H[?12l[?25h[?12;25h[?25l[1@n[42;42H[30m[48;5;250m8[39;49m[11;23H[?12l[?25h[?12;25h[?25l[1@d[42;42H[30m[48;5;250m9[39;49m[11;24H[?12l[?25h[?12;25h[?25l[1@d[42;41H[30m[48;5;250m20[39;49m[11;25H[?12l[?25h[?12;25h[?25l[1P[42;41H[30m[48;5;250m19[39;49m[11;24H[?12l[?25h[?12;25h[?25l[1P[42;42H[30m[48;5;250m8[39;49m[11;23H[?12l[?25h[?12;25h[?25l[1P[42;42H[30m[48;5;250m7[39;49m[11;22H[?12l[?25h[?12;25h[?25l[1P[42;42H[30m[48;5;250m6[39;49m[11;21H[?12l[?25h[?12;25h[?25l[1@p[42;42H[30m[48;5;250m7[39;49m[11;22H[?12l[?25h[?12;25h[?25l[1@e[42;42H[30m[48;5;250m8[39;49m[11;23H[?12l[?25h[?12;25h[?25l[1@n[42;42H[30m[48;5;250m9[39;49m[11;24H[?12l[?25h[?12;25h[?25l[1@d[42;41H[30m[48;5;250m20[39;49m[11;25H[?12l[?25h[?12;25h[?25l[1@:[42;42H[30m[48;5;250m1[39;49m[11;26H[?12l[?25h[?12;25h[42;39H[?25l[30m[48;5;250m2[39;49m[12;26H[?12l[?25h[?12;25h[42;42H[?25l[30m[48;5;250m0[39;49m[12;25H[?12l[?25h[?12;25h[42;41H[?25l[30m[48;5;250m19[39;49m[12;24H[?12l[?25h[?12;25h[42;42H[?25l[30m[48;5;250m8[39;49m[12;23H[?12l[?25h[?12;25h[42;42H[?25l[30m[48;5;250m7[39;49m[12;22H[?12l[?25h[?12;25h[42;42H[?25l[30m[48;5;250m6[39;49m[12;21H[?12l[?25h[?12;25h[42;42H[?25l[30m[48;5;250m5[39;49m[12;20H[?12l[?25h[?12;25h[?25l[1@a[42;42H[30m[48;5;250m6[39;49m[12;21H[?12l[?25h[?12;25h[?25l[1@p[42;42H[30m[48;5;250m7[39;49m[12;22H[?12l[?25h[?12;25h[?25l[1@p[42;42H[30m[48;5;250m8[39;49m[12;23H[?12l[?25h[?12;25h[?25l[1@e[42;42H[30m[48;5;250m9[39;49m[12;24H[?12l[?25h[?12;25h[?25l[1@n[42;41H[30m[48;5;250m20[39;49m[12;25H[?12l[?25h[?12;25h[?25l[1@d[42;42H[30m[48;5;250m1[39;49m[12;26H[?12l[?25h[?12;25h[?25l[1@:[42;42H[30m[48;5;250m2[39;49m[12;27H[?12l[?25h[?12;25h[43;1H[?25lSaving file /home/lucius/alx-system_engineering-devops/0x1A-application_server/gunicorn.service...[12;27H[?12l[?25h[?12;25h[43;1H[?25lWrote /home/lucius/alx-system_engineering-devops/0x1A-application_server/gunicorn.service[K[12;27H[?12l[?25h[?12;25h[42;6H[?25l[30m[48;5;250m----F1  [39;49m[1m[30m[48;5;250mgunicorn.service[0m[39;49m[30m[48;5;250m   All (12,22)   Git:[39;49m[12;27H[?12l[?25h[?12;25h[43;1H[K[12;27H[43;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ gitpus[K[K[K[K[K[Kclear
+[H[2J[3J]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ gitpush .
+commit message: fix(asd:0x1A:gunicorn): a  en  e  ensure i file is              fix error nad   and syslog defs
+[main 05ab44d] fix(asd:0x1A:gunicorn): fix error and syslog defs
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 401 bytes | 200.00 KiB/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+To https://github.com/thecypherzen/alx-system_engineering-devops.git
+   8555fc2..05ab44d  main -> main
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ clear
+[H[2J[3J]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ e 5-app_server-nginx_config 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) --------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[>0c[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All (1,0)      (Lisp Interaction WS ElDoc) --------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?2004h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[1;5H[?12l[?25h[?12;25h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[90m  1 [39;49mserver {[K
+[90m  2 [39;49m       listen 80 default_server;[K
+[90m  3 [39;49m       listen [::]:80 default_server;[K
+[90m  4 [39;49m[K
+[90m  5 [39;49m       root /var/www/html;[K
+[90m  6 [39;49m       server_name _;[K
+[90m  7 [39;49m       add_header X-Served-By $hostname always;[K
+[90m  8 [39;49m[K
+[90m  9 [39;49m       location / {[K
+[90m 10 [39;49m                root /home/ubuntu/AirBnB_clone_v4/web_dynamic/static;[K
+[90m 11 [39;49m                # try_files $uri $uri/ =404;[K
+[90m 12 [39;49m                proxy_pass http://0.0.0.0:5003/2-hbnb;[K
+[90m 13 [39;49m       }[K
+[90m 14 [39;49m[K
+[90m 15 [39;49m       location /airbnb-onepage/{[K
+[90m 16 [39;49m                proxy_pass http://0.0.0.0:5000/;[K
+[90m 17 [39;49m       }[K
+[90m 18 [39;49m[K
+[90m 19 [39;49m       location ~* /airbnb-dynamic/number_odd_or_even/([0-9]+)$ {[K
+[90m 20 [39;49m                proxy_pass http://0.0.0.0:5001/number_odd_or_even/$1;[K
+[90m 21 [39;49m       }[K
+[90m 22 [39;49m[K
+[90m 23 [39;49m       location /api/ {[K
+[90m 24 [39;49m                proxy_pass http://0.0.0.0:5002;[K
+[90m 25 [39;49m       }[K
+[90m 26 [39;49m}[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250m5-app_server-nginx_config[0m[39;49m[30m[48;5;250m   All (1,0)     Git-main  (Fundamental WS) ---------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[43;1H[K[1;5H[43;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ w [K[Ke 4-reload_gunicorn_no_downtime 
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[43d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[42d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) --------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[>0c[43d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All (1,0)      (Lisp Interaction WS ElDoc) --------------------------------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[?2004h[43;1H[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[1;5H[?12l[?25h[?12;25h[43;1H[?25lSetting up indent for shell type bash[K[1;5H[?12l[?25h[?12;25h[43;1H[?25lIndentation variables are now local.[K[1;5H[?12l[?25h[?12;25h[43;13H[?25lsetup for shell type bash[1;5H[?12l[?25h[?12;25h[43;1H[?25lIndentation setup for shell type bash[K[H[90m  1 [39;49m[38;5;124m#!/usr/bin/[39;49m[38;5;129menv[39;49m[38;5;124m bash                                                                                                  [39;49m
+[A
+[90m  2 [39;49m[38;5;124m# reloads gunicorn gracefully                                                                                        [39;49m
+[A
+[90m  3 [39;49m[K
+[90m  4 [39;49m[38;5;60mkill[39;49m -HUP [38;5;89m"$([39;49m[35mpgrep[39;49m[38;5;89m gunicorn | sort -n | head -1)"[39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[90m    [39;49m[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250m4-reload_gunicorn_no_downtime[0m[39;49m[30m[48;5;250m   All (1,0)     Git-main  (Shell-script[bash] WS) ----------------------------[39;49m
+[A[1;5H[?12l[?25h[?12;25h[43;1H[K[42;51H[?25l[30m[48;5;250m2[39;49m[2;5H[?12l[?25h[?12;25h[42;51H[?25l[30m[48;5;250m3[39;49m[3;5H[?12l[?25h[?12;25h[42;51H[?25l[30m[48;5;250m4[39;49m[4;5H[?12l[?25h[?12;25h[A[?25l[38;5;60mkill[39;49m -HUP [38;5;89m"$([39;49m[35mpgrep[39;49m[38;5;89m gunicorn | sort -n | head -1)"[39;49m[4;3H[90m  [39;49m[K[42;6H[30m[48;5;250m**--F1  [39;49m[1m[30m[48;5;250m4-reload_gunicorn_no_downtime[0m[39;49m[30m[48;5;250m   All (3[39;49m[3;5H[?12l[?25h[?12;25h[?25lskil[1@l[42;53H[30m[48;5;250m1[39;49m[3;6H[?12l[?25h[?12;25h[?25l[1@u[42;53H[30m[48;5;250m2[39;49m[3;7H[?12l[?25h[?12;25h[?25l[1@d[42;53H[30m[48;5;250m3[39;49m[3;8H[?12l[?25h[?12;25h[?25l[1@o[42;53H[30m[48;5;250m4[39;49m[3;9H[?12l[?25h[?12;25h[?25l[1@ [42;53H[30m[48;5;250m5[39;49m[3;10H[?12l[?25h[?12;25h[?25l[1P[42;53H[30m[48;5;250m4[39;49m[3;9H[?12l[?25h[?12;25h[?25l[1P[42;53H[30m[48;5;250m3[39;49m[3;8H[?12l[?25h[?12;25h[?25l[1P[42;53H[30m[48;5;250m2[39;49m[3;7H[?12l[?25h[?12;25h[?25l[1P[42;53H[30m[48;5;250m1[39;49m[3;6H[?12l[?25h[?12;25h[?25l[38;5;60mkill[39;49m[1P[42;53H[30m[48;5;250m0[39;49m[3;5H[?12l[?25h[?12;25h[42;51H[?25l[30m[48;5;250m4[39;49m[4;5H[?12l[?25h[?12;25h[43;1H[?25lAuto-saving...[4;5H[?12l[?25h[?12;25h[43;15H[?25ldone[4;5H[?12l[?25h[?12;25h[43;1H[K[42;51H[?25l[30m[48;5;250m3[39;49m[3;5H[?12l[?25h[?12;25h[?25lskil[1@l[42;53H[30m[48;5;250m1[39;49m[3;6H[?12l[?25h[?12;25h[?25l[1@u[42;53H[30m[48;5;250m2[39;49m[3;7H[?12l[?25h[?12;25h[?25l[1@d[42;53H[30m[48;5;250m3[39;49m[3;8H[?12l[?25h[?12;25h[?25l[1@o[42;53H[30m[48;5;250m4[39;49m[3;9H[?12l[?25h[?12;25h[?25l[1@ [42;53H[30m[48;5;250m5[39;49m[3;10H[?12l[?25h[?12;25h[43;1H[?25lSaving file /home/lucius/alx-system_engineering-devops/0x1A-application_server/4-reload_gunicorn_no_downtime...[3;10H[?12l[?25h[?12;25h[43;1H[?25lWrote /home/lucius/alx-system_engineering-devops/0x1A-application_server/4-reload_gunicorn_no_downtime[K[3;10H[?12l[?25h[?12;25h[42;6H[?25l[30m[48;5;250m----F1  [39;49m[1m[30m[48;5;250m4-reload_gunicorn_no_downtime[0m[39;49m[30m[48;5;250m   All (3,5)     Git:[39;49m[3;10H[?12l[?25h[?12;25h[43;1H[K[3;10H[43;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ clear
+[H[2J[3J]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ gitpush .
+commit message: fix   refa    f refactor(asd:0x1A:4-reload): use sudo
+[main 79bc467] refactor(asd:0x1A:4-reload): use sudo
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+Enumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)Writing objects:  50% (2/4)Writing objects:  75% (3/4)Writing objects: 100% (4/4)Writing objects: 100% (4/4), 446 bytes | 446.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/thecypherzen/alx-system_engineering-devops.git
+   fcdef56..79bc467  main -> main
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ clear
+[H[2J[3J]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ e[Klogout
+bash: logout: not login shell: use `exit'
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ vag[K[K[Klogout
+bash: logout: not login shell: use `exit'
+]0;lucius@maverixvb: ~/alx-system_engineering-devops/0x1A-application_server[01;31mlucius:[00m[01;34m0x1A-application_server[00m$ exit
+exit
+
+Script done on 2024-06-17 13:31:08+00:00 [COMMAND_EXIT_CODE="1"]
