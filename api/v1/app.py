@@ -12,10 +12,10 @@ app = Flask(__name__)
 app.register_blueprint(app_views)
 
 cors_config = {
-    "origins": ["0.0.0.0"]
+    "origins": ["*"]
 }
 
-CORS(app, resources={r"/*": cors_config})
+CORS(app, resources={r"/api/v1/*": cors_config})
 
 
 @app.teardown_appcontext
