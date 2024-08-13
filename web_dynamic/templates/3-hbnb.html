@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="description" content=" AirBnB Clone | Web Dynamic">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0" />
         <title>AirBnB clone</title>
-
         <link rel="shortcut icon" type="text/css" href="{{ url_for('static', filename='images/icon.ico') }}?{{ cache_id }}"/>
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/4-common.css') }}?{{ cache_id }}"/>
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/3-header.css') }}?{{ cache_id }}"/>
@@ -11,11 +13,12 @@
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/8-places.css') }}?{{ cache_id }}"/>
         <link rel="icon" href="../static/images/icon.png?{{cache_id}}" />
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="{{ url_for('static', filename='scripts/1-hbnb.js') }}?{{cache_id}}"></script>
+        <script src="{{ url_for('static', filename='scripts/3-hbnb.js') }}?{{cache_id}}"></script>
     </head>
     <body>
         <header>
             <div id="header_logo"></div>
+            <div id="api_status"></div>
         </header>
         <div class="container">
             <section class="filters">
@@ -52,36 +55,7 @@
 
             <div class="content">
 	              <section class="places">
-	                  <h1>Places</h1>
-	                  {% for state in states %}
-	                  {% for city in state.cities %}
-	                  {% for place in city.places %}
-	                  <article>
-	                      <div class="headline-wrapper">
-	                          <h2 class="headline">{{ place.name }}</h2>
-	                          <div class="price_by_night">${{ place.price_by_night }}</div>
-	                      </div>
-	                      <div class="information">
-	                          <div class="max_guest">
-		                            <div class="guest_icon"></div>
-		                            <p>{{ place.max_guest }} Guests</p>
-	                          </div>
-	                          <div class="number_rooms">
-		                            <div class="bed_icon"></div>
-		                            <p>{{ place.number_rooms }} Bedroom</p>
-	                          </div>
-	                          <div class="number_bathrooms">
-		                            <div class="bath_icon"></div>
-		                            <p>{{ place.number_bathrooms }} Bathroom</p>
-	                          </div>
-	                      </div>
-	                      <div class="user"><b>Owner</b>: {{ place.owner.first_name + ' ' +
-	                          place.owner.last_name }}</div>
-	                      <div class="description">{{ place.description | safe }}</div>
-	                  </article>
-	                  {% endfor %}
-	                  {% endfor %}
-	                  {% endfor %}
+
 	              </section>
             </div>
         </div>

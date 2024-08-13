@@ -206,8 +206,10 @@ def search_places():
     try:
         data = request.get_json()
         if not isinstance(data, dict):
+            print("not a json")
             abort(400, description="Not a JSON")
     except Exception:
+        print("json conversion failed")
         abort(400, description="Not a JSON")
 
     states_keys = data.get("states")
