@@ -3,9 +3,11 @@
 async function createPlacesSection () {
   const placesSection = $('<section></section>').addClass('places')
     .html($('<h1>').text('Places'));
-  url = 'http://0.0.0.0:5001/api/v1/places_search/';
-  const allPlaces = await getAllPlaces(url);
-  for (place of allPlaces) {
+  const allPlaces = await getAllPlaces('http://0.0.0.0:5001/api/v1/places_search/');
+  const sortedPlaces = allPlaces.sort(sp => {
+    return sp.name;
+  });
+  for (const place of sortedPlaces) {
     const placeArticle = await createPlaceArticle(place);
     placesSection.append(placeArticle);
   }
@@ -13,11 +15,11 @@ async function createPlacesSection () {
 }
 
 async function getUser (userId) {
-  url = `http://0.0.0.0:5001/api/v1/users/${userId}`;
-  response = await fetch(url, {
+  const url = `http://0.0.0.0:5001/api/v1/users/${userId}`;
+  const response = await fetch(url, {
     headers: { 'Content-Type': 'application/json' }
   });
-  data = await response.json();
+  const data = await response.json();
   return (data);
 }
 // 2. create an article from a place object
@@ -65,7 +67,7 @@ async function createPlaceArticle (placeObj) {
 // fetch places from api
 async function getAllPlaces (url) {
   console.log('all places called');
-  res = await fetch(url, {
+  const res = await fetch(url, {
     method: 'POST',
     body: JSON.stringify({}),
     headers: { 'Content-Type': 'application/json' }
