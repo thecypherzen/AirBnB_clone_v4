@@ -218,7 +218,7 @@ def search_places():
 
     if not all([data, states_keys, cities_keys, amenities_keys]):
         # get all places if all keys and request data are empty
-        results = storage.all(Place).values()
+        results = set(storage.all(Place).values())
     else:
         # get objects for each keys in request data
         results = set()
