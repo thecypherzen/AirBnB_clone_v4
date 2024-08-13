@@ -66,7 +66,6 @@ async function createPlaceArticle (placeObj) {
 
 // fetch places from api
 async function getAllPlaces (url) {
-  console.log('all places called');
   const res = await fetch(url, {
     method: 'POST',
     body: JSON.stringify({}),
@@ -87,8 +86,7 @@ $(document).ready(() => {
     } else {
       delete selected[key];
     }
-
-    // create is to of selected checkboxes
+    // create list of selected checkboxes
     let list = '';
     for (const value of Object.values(selected)) {
       if (list.length) {
@@ -96,9 +94,8 @@ $(document).ready(() => {
       }
       list += value;
     }
-
     // append selected checkboxes to h4
-    $('div.amenities h4').html(`<<p>>${list}</<p>>`);
+    $('div.amenities h4').html(`${list}`);
   });
 
   // SERVER STATUS

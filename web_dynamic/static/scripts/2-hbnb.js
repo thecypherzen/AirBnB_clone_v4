@@ -9,7 +9,6 @@ $('document').ready(() => {
     } else {
       delete selected[key];
     }
-
     // create is to of selected checkboxes
     let list = '';
     for (const value of Object.values(selected)) {
