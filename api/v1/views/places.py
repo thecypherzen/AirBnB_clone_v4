@@ -216,30 +216,48 @@ def search_places():
     cities_keys = data.get("cities")
     amenities_keys = data.get("amenities")
 
-    if not all([data, states_keys, cities_keys, amenities_keys]):
-        # get all places if all keys and request data are empty
-        results = set(storage.all(Place).values())
-    else:
-        # get objects for each keys in request data
-        results = set()
-        if states_keys:
-            for state_id in states_keys:
-                state = storage.get(State, state_id)
-                if state:
-                    for city in state.cities:
-                        results.update({place for place in city.places})
+    # get all places in storage and filter by state then cities then filters
+    results = set(storage.all(Place).values())
+    cities_filter = []   # filter out cities by state and then cities
+    user_cities = []     # to track use-entered cities for filtering
+    # add cities in states selected by user to filter
+    if states_keys:
+        for state_id in states_keys:
+            state = storage.get(State, state_id)
+            if state:
+                cities_filter += state.cities
+    # get user-entered cities in filter
+    if cities_keys:
+        for city_id in cities_keys:
+            city = storage.get(City, city_id)
+            if city:
+                user_cities.append(city)
+    # add cities that are not already in the filter to filter
+    if user_cities:
+        for temp_city in user_cities.copy():
+            if temp_city not in cities_filter:
+                cities_filter.append(temp_city)
+                user_cities.remove(temp_city)
 
-        if cities_keys:
-            for city_id in cities_keys:
-                city = storage.get(City, city_id)
-                if city:
-                    results.update({place for place in city.places})
+    # delete cities in filter that don't match user's cities for a state
+    for city in user_cities.copy():
+        for state_city in cities_filter.copy():
+            if city.state_id == state_city.state_id and \
+               state_city not in user_cities:
+                cities_filter.remove(state_city)
 
-    # filter results by amenities_ids if not empty
+    # get places for all cities that match filter values
+    if cities_filter:
+        filtered_results = set()
+        for state_city in cities_filter:
+            filtered_results.update([place for place in state_city.places])
+        results = {place for place in results if place in filtered_results}
+
+    # filter results by amenities_ids if it's not empty
     if amenities_keys:
-        # fetch matching amenities in storage and filter out `None`
-        amenities = [storage.get(Amenity, a_id) for a_id in amenities_keys]
-        amenities = list(filter(lambda x: x, amenities))
+        # fetch matching amenities in storage and filter out `None` values
+        amenities = list(filter(lambda x: x, [storage.get(Amenity, a_id) for
+                                              a_id in amenities_keys]))
         for amenity in amenities:
             # discard place if amenity is not in place
             results_copy = results.copy()
@@ -249,6 +267,7 @@ def search_places():
                     results.discard(place)
                     retults = results_copy
 
+    # convert place objects, cleanup and return
     results = [place.to_dict() for place in results]
     for place in results:
         if place.get("amenities"):
