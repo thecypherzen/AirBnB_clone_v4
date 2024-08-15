@@ -1,27 +1,26 @@
 // global functions
 // get a user from user_id
 async function getUser (userId) {
-    const url = `http://0.0.0.0:5001/api/v1/users/${userId}`;
-    const response = await fetch(url, {
-        headers: { 'Content-Type': 'application/json' }
-    });
-    const data = await response.json();
-    return (data);
+  const url = `http://0.0.0.0:5001/api/v1/users/${userId}`;
+  const response = await fetch(url, {
+    headers: { 'Content-Type': 'application/json' }
+  });
+  const data = await response.json();
+  return (data);
 }
-
 
 // fetch places from api (and filter)
-async function getPlaces(url, amenities=null) {
-    console.log("getting places called, amenities:\n", amenities);
-    const res = await fetch(url, {
-        method: 'POST',
-        body: ! amenities ? JSON.stringify({}) :
-            JSON.stringify({"amenities": amenities}),
-        headers: { 'Content-Type': 'application/json' }
-    });
-    return await res.json();
+async function getPlaces (url, amenities = null) {
+  console.log('getting places called, amenities:\n', amenities);
+  const res = await fetch(url, {
+    method: 'POST',
+    body: !amenities
+      ? JSON.stringify({})
+      : JSON.stringify({ amenities }),
+    headers: { 'Content-Type': 'application/json' }
+  });
+  return await res.json();
 }
-
 
 // create an article from a place object
 async function createPlaceArticle (placeObj) {
@@ -64,23 +63,22 @@ async function createPlaceArticle (placeObj) {
 }
 
 // create places section
-async function createPlacesSection(amenities=null) {
-    console.log("creating places section");
-    const placesSection = $('<section></section>').addClass('places')
-          .html($('<h1>').text('Places'));
-    const allPlaces = await getPlaces('http://0.0.0.0:5001/api/v1/places_search/',
-                                      amenities);
-    console.log(allPlaces);
-    const sortedPlaces = allPlaces.sort(sp => {
-        return sp.name;
-    });
-    for (const place of sortedPlaces) {
-        const placeArticle = await createPlaceArticle(place);
-        placesSection.append(placeArticle);
-    }
-    $('div.content').html(placesSection);
+async function createPlacesSection (amenities = null) {
+  console.log('creating places section');
+  const placesSection = $('<section></section>').addClass('places')
+    .html($('<h1>').text('Places'));
+  const allPlaces = await getPlaces('http://0.0.0.0:5001/api/v1/places_search/',
+    amenities);
+  console.log(allPlaces);
+  const sortedPlaces = allPlaces.sort(sp => {
+    return sp.name;
+  });
+  for (const place of sortedPlaces) {
+    const placeArticle = await createPlaceArticle(place);
+    placesSection.append(placeArticle);
+  }
+  $('div.content').html(placesSection);
 }
-
 
 // Entry
 $(document).ready(() => {
@@ -123,16 +121,15 @@ $(document).ready(() => {
   createPlacesSection();
 
   // BUTTON CLICK EVENT HANDLER - AMENITIES
-    $("button").on("click", (e) => {
-        const selectedAmenities = Array.from($(".filters").children(".amenities")
-                                         .children(".popover").children("li"))
-              .filter((listItem) => {
-                  return $(listItem).children("input").is(":checked");
-              }).map(activeItem => {
-                  return $(activeItem).children("input").attr("data-id");
-              });
-        console.log(selectedAmenities);
-        createPlacesSection(selectedAmenities);
-        e.preventDefault();
-    });
+  $('button').on('click', (e) => {
+    const selectedAmenities = Array.from($('.filters').children('.amenities')
+      .children('.popover').children('li'))
+      .filter((listItem) => {
+        return $(listItem).children('input').is(':checked');
+      }).map(activeItem => {
+        return $(activeItem).children('input').attr('data-id');
+      });
+    createPlacesSection(selectedAmenities);
+    e.preventDefault();
+  });
 });
