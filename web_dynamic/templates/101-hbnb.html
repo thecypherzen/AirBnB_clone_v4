@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content=" AirBnB Clone | Web Dynamic">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0" />
+        <title>AirBnB clone</title>
+        <link rel="shortcut icon" type="text/css" href="{{ url_for('static', filename='images/icon.ico') }}?{{ cache_id }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/4-common.css') }}?{{ cache_id }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/3-header.css') }}?{{ cache_id }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/3-footer.css') }}?{{ cache_id }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/6-filters.css') }}?{{ cache_id }}"/>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/8-places.css') }}?{{ cache_id }}"/>
+        <link rel="icon" href="../static/images/icon.png?{{cache_id}}" />
+        <script src="https://kit.fontawesome.com/dd6fce1739.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="{{ url_for('static', filename='scripts/101-hbnb.js') }}?{{cache_id}}"></script>
+    </head>
+    <body>
+        <header>
+            <div id="header_logo"></div>
+            <div id="api_status"></div>
+        </header>
+        <div class="container">
+            <section class="filters">
+	              <div class="locations">
+	                  <h3>States</h3>
+	                  <h4>&nbsp;</h4>
+	                  <ul class="popover">
+	                      {% for state in states | sort(attribute="name") %}
+	                      <li><input type="checkbox" data-id="{{state.id}}" data-name="{{state.name}}"><h2>{{ state.name }}</h2>
+	                          <ul>
+		                            {% for city in state.cities %}
+		                            <li><input type="checkbox" data-id="{{city.id}}" data-name="{{city.name}}"><h4>{{ city.name }}</h4></li>
+		                            {% endfor %}
+	                          </ul>
+	                      </li>
+	                      {% endfor %}
+	                  </ul>
+	              </div>
+
+	              <div class="amenities">
+	                  <h3>Amenities</h3>
+	                  <h4>&nbsp;</h4>
+	                  <ul class="popover">
+	                      {% for amenity in amenities | sort(attribute="name") %}
+                        <li><input type="checkbox" data-id="{{ amenity.id }}" data-name="{{ amenity.name }}" style="margin-right: 10px">
+		                        {{ amenity.name }}
+                        </li>
+	                      {% endfor %}
+	                  </ul>
+	              </div>
+	              <div class="empty"></div>
+	              <button>Search</button>
+            </section>
+
+            <div class="content">
+	              <section class="places">
+
+	              </section>
+            </div>
+        </div>
+        <footer>
+            <p>Holberton School</p>
+        </footer>
+    </body>
+</html>
