@@ -212,3 +212,36 @@ article div.reviews p{
 .visible {
     display: block;
 }
+
+/* accessory functions */
+.loading, .not-found {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.loading {
+    animation: loading 1.2s infinite  alternate both ease-in running;
+}
+
+.loading > h3,
+.not-found > h3{
+    display: inline block;
+    text-align: center;
+    color: #ccc;
+    background: #eee;
+    border-radius: 10px;
+    padding: 20px 40px;
+}
+
+@keyframes loading{
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

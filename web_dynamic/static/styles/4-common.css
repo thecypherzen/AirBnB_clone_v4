@@ -13,6 +13,9 @@ body {
 }
 
 .content {
-    min-height: calc(100vh - 264px);
+    min-height: calc(100vh - 268px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
 }

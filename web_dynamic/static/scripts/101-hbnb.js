@@ -5,6 +5,25 @@ const checkedStates = {};
 
 // global functions
 /**
+ * createTempContent - creates and inserts a temp element to
+ *  + display when loading or searching
+ *
+ * (type): the type of element to create
+ * (content): the content to display in the element
+ * (parent): the parent to insert the element
+ *
+ * Returns: null
+ */
+function insertTempContent ({
+  type = 'div', content = 'Loding...', notFound = false,
+  parent = 'div.content'
+} = {}) {
+  const element = $(`<${type}>`).addClass(`${notFound ? 'not-found' : 'loading'}`)
+    .append($('<h3>').text(`${content}`));
+  $(`${parent}`).html(element);
+}
+
+/**
  * createPlaceReviews - creates the reviews of a place
  */
 async function createPlaceReviews (placeId) {
@@ -38,7 +57,7 @@ async function createPlaceReviews (placeId) {
     );
   const reviewsList = $('<ul>').addClass('reviews-list hidden');
 
-  for (review of reviews) {
+  for (const review of reviews) {
     const user = await getUser(review.user_id);
     const dateStr = getDateStr(review.created_at);
     const reviewTitle = `From ${user.first_name} ${user.last_name}` +
@@ -202,16 +221,66 @@ async function createPlacesSection (states, cities, amenities) {
     .html($('<h1>').text('Places'));
   const allPlaces = await getPlaces('http://0.0.0.0:5001/api/v1/places_search/',
     states, cities, amenities);
-  const sortedPlaces = allPlaces.sort(sp => {
-    return sp.name;
-  });
-  for (const place of sortedPlaces) {
-    const placeArticle = await createPlaceArticle(place);
-    placesSection.append(placeArticle);
+  if (allPlaces.length) {
+    const sortedPlaces = allPlaces.sort(sp => {
+      return sp.name;
+    });
+    for (const place of sortedPlaces) {
+      const placeArticle = await createPlaceArticle(place);
+      placesSection.append(placeArticle);
+    }
+    $('div.content').html(placesSection);
+    return true;
   }
-  $('div.content').html(placesSection);
+  insertTempContent({
+    content: 'Sorry. No match was found for your search.',
+    notFound: true
+  });
+  return false;
 }
 
+/**
+ * placesSectionMgr - manages the creation and insertion of places
+ *  + section, as needed. If (useFilter) is true, filter values
+ *  + are used to filter results else, all places are loaded.
+ *
+ * (useFilter): Boolean value that lets the manager know if to use filter
+ *  + selection values or not.
+ *
+ * Returns: null
+ */
+function placesSectionMgr ({ useFilter = false } = {}) {
+  let placesPromise;
+  if (useFilter) {
+    placesPromise = createPlacesSection(Object.keys(checkedStates),
+      Object.keys(checkedCities),
+      Object.keys(checkedAmenities));
+  } else {
+    placesPromise = createPlacesSection();
+  }
+  placesPromise.then((res) => {
+    if (res) {
+      /**
+             * Handle Reviews toggle(show/hide) click event
+             * + iff places was created successfully
+             */
+      $('span.toggle').on('click', function () {
+        const icon = $(this).children('i')[0];
+        const text = $(this).children('p')[0];
+        const list = $(this).parent().parent().children('ul');
+        $(icon).toggleClass('bg-danger bg-success');
+        $(icon).toggleClass('fa-arrow-down fa-arrow-up');
+        if ($(text).text() === 'show') {
+          $(text).text('hide');
+        } else {
+          $(text).text('show');
+        }
+        $($(this)).toggleClass('danger success');
+        $(list).toggleClass('hidden visible');
+      });
+    }
+  });
+}
 /**
  * document.ready - Program entry point
  *
@@ -282,36 +351,18 @@ $(document).ready(() => {
     apiBadge.removeClass('available');
   });
 
+  insertTempContent({ content: 'Loading places...please wait' });
   /**
    * create UI places section
    */
-  createPlacesSection().then(() => {
-    /**
-         * Handle Reviews toggle(show/hide) click event
-         */
-    $('span.toggle').on('click', function () {
-      const icon = $(this).children('i')[0];
-      const text = $(this).children('p')[0];
-      const list = $(this).parent().parent().children('ul');
-      $(icon).toggleClass('bg-danger bg-success');
-      $(icon).toggleClass('fa-arrow-down fa-arrow-up');
-      if ($(text).text() === 'show') {
-        $(text).text('hide');
-      } else {
-        $(text).text('show');
-      }
-      $($(this)).toggleClass('danger success');
-      $(list).toggleClass('hidden visible');
-    });
-  });
+  placesSectionMgr();
 
   /**
    * Submit button click even handler
    */
   $('button').on('click', (e) => {
-    createPlacesSection(Object.keys(checkedStates),
-      Object.keys(checkedCities),
-      Object.keys(checkedAmenities));
+    insertTempContent({ content: 'Searching...be right back' });
+    placesSectionMgr({ useFilter: true });
     e.preventDefault();
   });
 });
