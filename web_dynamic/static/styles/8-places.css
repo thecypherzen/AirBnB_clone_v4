@@ -12,7 +12,7 @@ article {
 	margin: 20px;
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
-	transition: all 0.15s ease-in;
+	transition: all 0.7s ease-in-out;
 }
 
 article:hover {
@@ -114,6 +114,101 @@ article h2 {
 	background-image: url("../images/icon_bath.png");
 	background-repeat: no-repeat;
 	background-position: center;
-    width: 50px;
-    height: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+/* Reviews Section */
+.reviews{
+    margin-top: 40px;
+}
+
+article div.reviews h1,
+article div.reviews h2,
+article div.reviews h3,
+article div.reviews p{
+    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.reviews-heading{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px #ddd solid;
+    margin-bottom: 5px;
+}
+
+.places .reviews .reviews-heading > h2 {
+    font-size: 16px;
+}
+
+.reviews .toggle {
+    margin-right: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews .toggle:hover{
+    opacity: 0.8;
+}
+
+
+.reviews .toggle > p{
+    padding-right: 5px;
+}
+
+.reviews .toggle > i {
+    display: flex;
+    height: 6px;
+    width: 6px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    font-size: 8px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.reviews .toggle {
+    transition: all 0.5s ease-in-out;
+}
+
+.review-item {
+    margin-bottom: 5px;
+}
+
+.review-item > h3.title {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.review-item p {
+    font-size: 12px;
+}
+
+.danger {
+    color: #ff5a5f;
+}
+
+.success {
+    color: #86DC3D;
+}
+
+.bg-danger {
+    background: #ff5a5f;
+}
+
+.bg-success{
+    background: #86dc3d;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
 }

@@ -301,7 +301,7 @@ $(document).ready(() => {
         $(text).text('show');
       }
       $($(this)).toggleClass('danger success');
-      $(list).toggleClass('hidden block');
+      $(list).toggleClass('hidden visible');
     });
   });
 
