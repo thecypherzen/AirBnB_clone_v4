@@ -40,7 +40,7 @@ def populate_filters():
             # add city to current state dict
             state_dict["cities"].append(city_dict)
         all_states.append(state_dict)
-    return render_template("2-hbnb.html",
+    return render_template("-hbnb.html",
                            amenities=amenities,
                            states=all_states,
                            cache_id=uidgen())
@@ -53,4 +53,4 @@ def close_storage(err):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0")
